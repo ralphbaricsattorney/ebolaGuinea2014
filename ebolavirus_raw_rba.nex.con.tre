@@ -1,0 +1,151 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=49;
+	taxlabels
+	BDBV_FJ217161_Bundibugyo_Bundibugyo_Uganda_2007-11
+	BDBV_KC545393_EboBund-112_Isiro_DRC_2012
+	BDBV_KC545394_EboBund-120_Isiro_DRC_2012
+	BDBV_KC545395_EboBund-122_Isiro_DRC_2012
+	BDBV_KC545396_EboBund-14_Isiro_DRC_2012
+	EBOV_AF272001_Mayinga_KinshasaDRC_1976
+	EBOV_AY354458_Zaire_unknown_1995
+	EBOV_HQ613402_034-KS_DRC_2008-12-31
+	EBOV_HQ613403_M-M_DRC_2007-08-31
+	EBOV_JQ352763_Kikwit_Kikwit_DRC_1995-05-04
+	EBOV_KC242784_Luebo9_Luebo_DRC_2007
+	EBOV_KC242785_Luebo0_Luebo_DRC_2007
+	EBOV_KC242786_Luebo1_Luebo_DRC_2007
+	EBOV_KC242787_Luebo23_Luebo_DRC_2007
+	EBOV_KC242788_Luebo43_Luebo_DRC_2007
+	EBOV_KC242789_Luebo4_Luebo_DRC_2007
+	EBOV_KC242790_Luebo5_Luebo_DRC_2007
+	EBOV_KC242791_Bonduni_DRC_1977
+	EBOV_KC242792_Gabon_Gabon_1994
+	EBOV_KC242793_1Eko_Gabon_1996
+	EBOV_KC242794_2Nza_Gabon_1996
+	EBOV_KC242795_1Mbie_Gabon_1996
+	EBOV_KC242796_13625Kikwit_Kikwit_DRC_1995
+	EBOV_KC242797_1Oba_Gabon_1996
+	EBOV_KC242798_1Ikot_Gabon_1996
+	EBOV_KC242799_13709Kikwit_Kikwit_DRC_1995
+	EBOV_KC242800_Ilembe_Gabon_1996
+	EBOV_KC242801_deRoover_DRC_1976
+	EBOV_KJ660346_Kissidougou-C15_Kissidougou_Guinea_2014
+	EBOV_KJ660347_Gueckedou-C07_Gueckedou_Guinea_2014
+	EBOV_KJ660348_Gueckedou-C05_Gueckedou_Guinea_2014
+	RESTV_AB050936_Reston_Philippines_1996
+	RESTV_AF522874_Pennsylvania_Philippines_1990
+	RESTV_FJ621583_Reston08-A_Philippines_2008
+	RESTV_FJ621584_Reston08-C_Philippines_2008
+	RESTV_FJ621585_Reston08-E_Philippines_2008
+	RESTV_JX477165_Reston09-A_Philippines_2009
+	RESTV_JX477166_Alice_TX_USA_MkCQ8167_Philippines_1996
+	SUDV_AY729654_Gulu_Gulu_Uganda_2000
+	SUDV_EU338380_Yambio_YambioSouth_Sudan_2004
+	SUDV_FJ968794_Boniface_Sudan_2008
+	SUDV_JN638998_Nakisamata_Nakisimata_Uganda_2011-05
+	SUDV_KC242783_Maleo_Maleo_Sudan_1979
+	SUDV_KC545389_EboSud-602_Kibaale_Uganda_2012
+	SUDV_KC545390_EboSud-603_Kibaale_Uganda_2012
+	SUDV_KC545391_EboSud-609_Kibaale_Uganda_2012
+	SUDV_KC545392_EboSud-682_Kibaale_Uganda_2012
+	SUDV_KC589025_EboSud-639_Luwero_Uganda_2012
+	TAFV_FJ217162_Cote_dIvoire_Tai_Forest_Ivory_Coast_1994-11
+;
+end;
+
+begin trees;
+	tree con_50_majrule = [&U] (BDBV_FJ217161_Bundibugyo_Bundibugyo_Uganda_2007-11[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00978623625,length_median=0.009813287,length_95%HPD={0.006586653,0.01274344}]:0.009813,(((((EBOV_AF272001_Mayinga_KinshasaDRC_1976[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=5.80416082E-4,length_median=5.606176E-4,length_95%HPD={2.320863E-4,9.261679E-4}]:5.61E-4,EBOV_KC242791_Bonduni_DRC_1977[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=1.06477923E-4,length_median=8.907148E-5,length_95%HPD={4.58279E-6,2.558684E-4}]:8.9E-5,EBOV_KC242801_deRoover_DRC_1976[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=1.06285416E-4,length_median=8.816242E-5,length_95%HPD={1.21952E-6,2.485705E-4}]:8.8E-5)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00454266096,length_median=0.004519973,length_95%HPD={0.003613883,0.005616108}]:0.00452,((EBOV_AY354458_Zaire_unknown_1995[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=3.3346698E-4,length_median=3.19476E-4,length_95%HPD={8.341158E-5,6.015249E-4}]:3.19E-4,(EBOV_JQ352763_Kikwit_Kikwit_DRC_1995-05-04[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=1.21858882E-4,length_median=8.683327E-5,length_95%HPD={3.850102E-8,3.583962E-4}]:8.7E-5,(EBOV_KC242796_13625Kikwit_Kikwit_DRC_1995[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=9.95457313E-5,length_median=8.263114E-5,length_95%HPD={5.599193E-7,2.419556E-4}]:8.3E-5,EBOV_KC242799_13709Kikwit_Kikwit_DRC_1995[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=5.41004127E-5,length_median=3.776573E-5,length_95%HPD={3.451589E-8,1.551371E-4}]:3.8E-5)[&prob=0.665889407,prob_stddev=0.00329763322,prob_range={0.663557628,0.668221186},prob(percent)="67",prob+-sd="67+-0",length_mean=1.63913267E-4,length_median=1.450447E-4,length_95%HPD={1.426066E-7,3.643939E-4}]:1.45E-4)[&prob=0.695536309,prob_stddev=0.00753744737,prob_range={0.690206529,0.700866089},prob(percent)="70",prob+-sd="70+-1",length_mean=1.9753663E-4,length_median=1.785585E-4,length_95%HPD={2.460128E-7,4.308194E-4}]:1.79E-4)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00343429932,length_median=0.003442856,length_95%HPD={0.002518285,0.004372355}]:0.003443,((EBOV_KC242792_Gabon_Gabon_1994[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=8.57327005E-4,length_median=8.513196E-4,length_95%HPD={4.518646E-4,0.001248778}]:8.51E-4,(EBOV_KC242793_1Eko_Gabon_1996[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=5.37375156E-5,length_median=3.715542E-5,length_95%HPD={7.705415E-8,1.628222E-4}]:3.7E-5,EBOV_KC242795_1Mbie_Gabon_1996[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=5.35165066E-5,length_median=3.681739E-5,length_95%HPD={3.294248E-8,1.590234E-4}]:3.7E-5,EBOV_KC242797_1Oba_Gabon_1996[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=5.24717648E-5,length_median=3.648748E-5,length_95%HPD={1.482217E-8,1.591944E-4}]:3.6E-5)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00111615928,length_median=0.001105258,length_95%HPD={6.710826E-4,0.001608154}]:0.001105)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=7.08362886E-4,length_median=6.887405E-4,length_95%HPD={3.432714E-4,0.001100862}]:6.89E-4,(EBOV_KC242794_2Nza_Gabon_1996[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=5.17804808E-5,length_median=3.574727E-5,length_95%HPD={2.480573E-8,1.568933E-4}]:3.6E-5,EBOV_KC242798_1Ikot_Gabon_1996[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=5.478203E-5,length_median=3.764385E-5,length_95%HPD={1.275851E-7,1.668066E-4}]:3.8E-5)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00227215265,length_median=0.002252003,length_95%HPD={0.001597752,0.002979286}]:0.002252)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00448230836,length_median=0.004485409,length_95%HPD={0.003509447,0.005554496}]:0.004485)[&prob=0.917055296,prob_stddev=0.0456957747,prob_range={0.884743504,0.949367089},prob(percent)="92",prob+-sd="92+-5",length_mean=0.00358962627,length_median=0.003692675,length_95%HPD={0.001831089,0.004963331}]:0.003693)[&prob=0.861092605,prob_stddev=0.0400426891,prob_range={0.832778148,0.889407062},prob(percent)="86",prob+-sd="86+-4",length_mean=0.00469117457,length_median=0.005015562,length_95%HPD={0.001972347,0.006483965}]:0.005016,(EBOV_HQ613402_034-KS_DRC_2008-12-31[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=7.76627546E-4,length_median=7.28929E-4,length_95%HPD={2.693788E-4,0.001414026}]:7.29E-4,EBOV_HQ613403_M-M_DRC_2007-08-31[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=1.25638518E-4,length_median=8.942851E-5,length_95%HPD={9.799266E-8,3.854071E-4}]:8.9E-5,EBOV_KC242784_Luebo9_Luebo_DRC_2007[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=2.49709107E-4,length_median=2.339637E-4,length_95%HPD={4.244927E-5,4.915414E-4}]:2.34E-4,(EBOV_KC242785_Luebo0_Luebo_DRC_2007[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=2.15161864E-4,length_median=2.020186E-4,length_95%HPD={3.950666E-5,4.22689E-4}]:2.02E-4,EBOV_KC242790_Luebo5_Luebo_DRC_2007[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=2.60659804E-4,length_median=2.440184E-4,length_95%HPD={5.881727E-5,4.847861E-4}]:2.44E-4)[&prob=0.988674217,prob_stddev=0.0047109046,prob_range={0.985343105,0.99200533},prob(percent)="99",prob+-sd="99+-0",length_mean=1.04741216E-4,length_median=8.750135E-5,length_95%HPD={2.56647E-6,2.500824E-4}]:8.8E-5,(EBOV_KC242786_Luebo1_Luebo_DRC_2007[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=9.81235974E-5,length_median=8.19717E-5,length_95%HPD={1.895185E-8,2.451863E-4}]:8.2E-5,EBOV_KC242789_Luebo4_Luebo_DRC_2007[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=1.60309999E-4,length_median=1.404628E-4,length_95%HPD={1.572322E-5,3.421188E-4}]:1.4E-4)[&prob=0.583610926,prob_stddev=0.00565308553,prob_range={0.579613591,0.587608261},prob(percent)="58",prob+-sd="58+-1",length_mean=9.88805366E-5,length_median=8.131847E-5,length_95%HPD={1.383711E-7,2.412513E-4}]:8.1E-5,(EBOV_KC242787_Luebo23_Luebo_DRC_2007[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=5.18282443E-5,length_median=3.479357E-5,length_95%HPD={4.627549E-8,1.530369E-4}]:3.5E-5,EBOV_KC242788_Luebo43_Luebo_DRC_2007[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=4.73225675E-4,length_median=4.499378E-4,length_95%HPD={1.959567E-4,7.983439E-4}]:4.5E-4)[&prob=0.985009993,prob_stddev=0.00141327138,prob_range={0.98401066,0.986009327},prob(percent)="99",prob+-sd="99+-0",length_mean=1.02628149E-4,length_median=8.489908E-5,length_95%HPD={3.333502E-6,2.509598E-4}]:8.5E-5)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00793721369,length_median=0.008462404,length_95%HPD={0.004292411,0.01088068}]:0.008462,(EBOV_KC242800_Ilembe_Gabon_1996[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0125784713,length_median=0.01256104,length_95%HPD={0.01092909,0.01437184}]:0.012561,((EBOV_KJ660346_Kissidougou-C15_Kissidougou_Guinea_2014[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=5.42055767E-5,length_median=3.858435E-5,length_95%HPD={1.969608E-8,1.649287E-4},!name="SUDV"]:3.9E-5,EBOV_KJ660348_Gueckedou-C05_Gueckedou_Guinea_2014[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=2.08459734E-4,length_median=1.891655E-4,length_95%HPD={4.293147E-5,4.160455E-4}]:1.89E-4)[&prob=0.983677548,prob_stddev=4.7109046E-4,prob_range={0.983344437,0.98401066},prob(percent)="98",prob+-sd="98+-0",length_mean=1.54493653E-4,length_median=1.372612E-4,length_95%HPD={1.458448E-5,3.404954E-4}]:1.37E-4,EBOV_KJ660347_Gueckedou-C07_Gueckedou_Guinea_2014[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=1.12956168E-4,length_median=9.33175E-5,length_95%HPD={3.78736E-6,2.696124E-4}]:9.3E-5)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0196668845,length_median=0.01988892,length_95%HPD={0.01544511,0.02263183},!color=#800e19,!hilight={3,0.47909908079999997,#bf0d19}]:0.019889)[&prob=0.64556962,prob_stddev=0.0169592566,prob_range={0.633577615,0.657561626},prob(percent)="65",prob+-sd="65+-2",length_mean=3.44725797E-4,length_median=3.210155E-4,length_95%HPD={1.257189E-5,6.679665E-4}]:3.21E-4)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.403757683,length_median=0.4032738,length_95%HPD={0.3726288,0.4371659}]:0.403274,((((((RESTV_AB050936_Reston_Philippines_1996[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=8.51945599E-4,length_median=8.358854E-4,length_95%HPD={4.490906E-4,0.001256413}]:8.36E-4,RESTV_JX477166_Alice_TX_USA_MkCQ8167_Philippines_1996[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=3.64244714E-4,length_median=3.476723E-4,length_95%HPD={1.264948E-4,6.534955E-4}]:3.48E-4)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00170207075,length_median=0.00167031,length_95%HPD={0.001001166,0.002493564}]:0.00167,RESTV_FJ621585_Reston08-E_Philippines_2008[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0136599925,length_median=0.01359964,length_95%HPD={0.01101404,0.01669725}]:0.0136)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00418195859,length_median=0.004179678,length_95%HPD={0.00315887,0.005342263}]:0.00418,(RESTV_FJ621583_Reston08-A_Philippines_2008[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=2.51062955E-4,length_median=2.360754E-4,length_95%HPD={4.223535E-5,4.732027E-4}]:2.36E-4,RESTV_JX477165_Reston09-A_Philippines_2009[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0010696662,length_median=0.001051053,length_95%HPD={6.436669E-4,0.001564558}]:0.001051)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0178445983,length_median=0.01783378,length_95%HPD={0.01569462,0.01991431}]:0.017834)[&prob=0.99467022,prob_stddev=0.00282654276,prob_range={0.992671552,0.996668887},prob(percent)="99",prob+-sd="99+-0",length_mean=0.00247766758,length_median=0.002463315,length_95%HPD={0.001747184,0.003300439}]:0.002463,RESTV_AF522874_Pennsylvania_Philippines_1990[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00398754543,length_median=0.003944077,length_95%HPD={0.003143817,0.005116165}]:0.003944)[&prob=0.99467022,prob_stddev=0.00282654276,prob_range={0.992671552,0.996668887},prob(percent)="99",prob+-sd="99+-0",length_mean=0.00905954162,length_median=0.009057795,length_95%HPD={0.005117778,0.01275575}]:0.009058,RESTV_FJ621584_Reston08-C_Philippines_2008[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0194838608,length_median=0.01940292,length_95%HPD={0.01548154,0.02342594}]:0.019403)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.60934323,length_median=0.6102103,length_95%HPD={0.5648038,0.6520186},!collapse={"collapsed",0.0},!rotate=false,!name="RESTV"]:0.61021,(((SUDV_AY729654_Gulu_Gulu_Uganda_2000[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00262300746,length_median=0.002602185,length_95%HPD={0.001974491,0.003345473}]:0.002602,(SUDV_JN638998_Nakisamata_Nakisimata_Uganda_2011-05[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00327435645,length_median=0.003246869,length_95%HPD={0.002498909,0.004117348}]:0.003247,(SUDV_KC545389_EboSud-602_Kibaale_Uganda_2012[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=5.32581461E-5,length_median=3.614705E-5,length_95%HPD={7.612957E-8,1.633271E-4}]:3.6E-5,SUDV_KC545390_EboSud-603_Kibaale_Uganda_2012[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=1.04852283E-4,length_median=8.821282E-5,length_95%HPD={2.026031E-6,2.511903E-4}]:8.8E-5,SUDV_KC545391_EboSud-609_Kibaale_Uganda_2012[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=1.56723808E-4,length_median=1.420775E-4,length_95%HPD={2.122832E-5,3.291253E-4}]:1.42E-4,SUDV_KC545392_EboSud-682_Kibaale_Uganda_2012[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=1.54920929E-4,length_median=1.381574E-4,length_95%HPD={1.696754E-5,3.293924E-4}]:1.38E-4)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00436178977,length_median=0.004333482,length_95%HPD={0.003402468,0.005217733}]:0.004333)[&prob=0.999333777,prob_stddev=9.42180921E-4,prob_range={0.998667555,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=3.22930373E-4,length_median=3.048034E-4,length_95%HPD={7.798032E-5,5.944159E-4}]:3.05E-4)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00155414686,length_median=0.001534964,length_95%HPD={9.07879E-4,0.002195635}]:0.001535,SUDV_KC589025_EboSud-639_Luwero_Uganda_2012[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0043704782,length_median=0.004340744,length_95%HPD={0.003281203,0.00534139}]:0.004341)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0259350639,length_median=0.02595153,length_95%HPD={0.01864858,0.03368257}]:0.025952,(SUDV_EU338380_Yambio_YambioSouth_Sudan_2004[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00256177868,length_median=0.002529784,length_95%HPD={0.001840667,0.003343558}]:0.00253,(SUDV_FJ968794_Boniface_Sudan_2008[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=9.99693217E-4,length_median=9.837293E-4,length_95%HPD={5.599824E-4,0.001436394}]:9.84E-4,SUDV_KC242783_Maleo_Maleo_Sudan_1979[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0013001559,length_median=0.001293883,length_95%HPD={8.242747E-4,0.001823741}]:0.001294)[&prob=0.726182545,prob_stddev=0.0113061711,prob_range={0.718187875,0.734177215},prob(percent)="73",prob+-sd="73+-1",length_mean=1.75478178E-4,length_median=1.537755E-4,length_95%HPD={1.837641E-7,4.039839E-4}]:1.54E-4)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.0236741217,length_median=0.02355635,length_95%HPD={0.01612897,0.03095591}]:0.023556)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.587967076,length_median=0.5869379,length_95%HPD={0.5459345,0.6322814},!cartoon={10,0.0214114861000001},!collapse={"collapsed",0.0214114861000001},!name="SUDV"]:0.586938)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.262624811,length_median=0.262293,length_95%HPD={0.2313378,0.2985894}]:0.262293)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.232903943,length_median=0.2326471,length_95%HPD={0.2022891,0.2609167}]:0.232647,TAFV_FJ217162_Cote_dIvoire_Tai_Forest_Ivory_Coast_1994-11[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.376358841,length_median=0.3762833,length_95%HPD={0.3467873,0.4052392},!name="TAFV"]:0.376283)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.364929003,length_median=0.3649194,length_95%HPD={0.3367538,0.3959061}]:0.364919,(BDBV_KC545393_EboBund-112_Isiro_DRC_2012[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=3.24004273E-4,length_median=3.045265E-4,length_95%HPD={8.141365E-5,6.122539E-4}]:3.05E-4,(BDBV_KC545394_EboBund-120_Isiro_DRC_2012[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=2.04966834E-4,length_median=1.883344E-4,length_95%HPD={3.250364E-5,4.044138E-4}]:1.88E-4,BDBV_KC545395_EboBund-122_Isiro_DRC_2012[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=3.10804125E-4,length_median=2.923413E-4,length_95%HPD={9.469636E-5,5.591778E-4}]:2.92E-4,BDBV_KC545396_EboBund-14_Isiro_DRC_2012[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=3.09259581E-4,length_median=2.917937E-4,length_95%HPD={9.488651E-5,5.729643E-4}]:2.92E-4)[&prob=1.0,prob_stddev=0.0,prob_range={1.0,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=4.66139316E-4,length_median=4.528798E-4,length_95%HPD={1.690743E-4,7.706794E-4}]:4.53E-4)[&prob=0.999666889,prob_stddev=4.7109046E-4,prob_range={0.999333777,1.0},prob(percent)="100",prob+-sd="100+-0",length_mean=0.00498193284,length_median=0.004944885,length_95%HPD={0.002033179,0.007825451},!collapse={"collapsed",1.4947856368999999},!name="BDBV"]:0.004945);
+end;
+
+begin figtree;
+	set appearance.backgroundColorAttribute="Default";
+	set appearance.backgroundColour=#ffffff;
+	set appearance.branchColorAttribute="User selection";
+	set appearance.branchColorGradient=false;
+	set appearance.branchLineWidth=1.0;
+	set appearance.branchMinLineWidth=0.0;
+	set appearance.branchWidthAttribute="Fixed";
+	set appearance.foregroundColour=#000000;
+	set appearance.hilightingGradient=false;
+	set appearance.selectionColour=#2d3680;
+	set branchLabels.colorAttribute="User selection";
+	set branchLabels.displayAttribute="Branch times";
+	set branchLabels.fontName="sansserif";
+	set branchLabels.fontSize=8;
+	set branchLabels.fontStyle=0;
+	set branchLabels.isShown=false;
+	set branchLabels.significantDigits=4;
+	set layout.expansion=0;
+	set layout.layoutType="RECTILINEAR";
+	set layout.zoom=0;
+	set legend.attribute="length_mean";
+	set legend.fontSize=10.0;
+	set legend.isShown=false;
+	set legend.significantDigits=4;
+	set nodeBars.barWidth=4.0;
+	set nodeBars.displayAttribute="length_95%HPD";
+	set nodeBars.isShown=false;
+	set nodeLabels.colorAttribute="User selection";
+	set nodeLabels.displayAttribute="Node ages";
+	set nodeLabels.fontName="sansserif";
+	set nodeLabels.fontSize=8;
+	set nodeLabels.fontStyle=0;
+	set nodeLabels.isShown=false;
+	set nodeLabels.significantDigits=4;
+	set nodeShapeExternal.colourAttribute="User selection";
+	set nodeShapeExternal.isShown=false;
+	set nodeShapeExternal.minSize=10.0;
+	set nodeShapeExternal.scaleType=Width;
+	set nodeShapeExternal.shapeType=Circle;
+	set nodeShapeExternal.size=4.0;
+	set nodeShapeExternal.sizeAttribute="Fixed";
+	set nodeShapeInternal.colourAttribute="User selection";
+	set nodeShapeInternal.isShown=false;
+	set nodeShapeInternal.minSize=10.0;
+	set nodeShapeInternal.scaleType=Width;
+	set nodeShapeInternal.shapeType=Circle;
+	set nodeShapeInternal.size=4.0;
+	set nodeShapeInternal.sizeAttribute="Fixed";
+	set polarLayout.alignTipLabels=false;
+	set polarLayout.angularRange=0;
+	set polarLayout.rootAngle=0;
+	set polarLayout.rootLength=100;
+	set polarLayout.showRoot=true;
+	set radialLayout.spread=0.0;
+	set rectilinearLayout.alignTipLabels=false;
+	set rectilinearLayout.curvature=0;
+	set rectilinearLayout.rootLength=100;
+	set scale.offsetAge=0.0;
+	set scale.rootAge=1.0;
+	set scale.scaleFactor=1.0;
+	set scale.scaleRoot=false;
+	set scaleAxis.automaticScale=true;
+	set scaleAxis.fontSize=8.0;
+	set scaleAxis.isShown=false;
+	set scaleAxis.lineWidth=1.0;
+	set scaleAxis.majorTicks=1.0;
+	set scaleAxis.minorTicks=0.5;
+	set scaleAxis.origin=0.0;
+	set scaleAxis.reverseAxis=false;
+	set scaleAxis.showGrid=true;
+	set scaleBar.automaticScale=true;
+	set scaleBar.fontSize=10.0;
+	set scaleBar.isShown=true;
+	set scaleBar.lineWidth=1.0;
+	set scaleBar.scaleRange=0.0;
+	set tipLabels.colorAttribute="User selection";
+	set tipLabels.displayAttribute="Names";
+	set tipLabels.fontName="sansserif";
+	set tipLabels.fontSize=8;
+	set tipLabels.fontStyle=0;
+	set tipLabels.isShown=true;
+	set tipLabels.significantDigits=4;
+	set trees.order=false;
+	set trees.orderType="increasing";
+	set trees.rooting=false;
+	set trees.rootingType="User Selection";
+	set trees.transform=false;
+	set trees.transformType="cladogram";
+end;
+
